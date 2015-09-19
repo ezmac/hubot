@@ -5,7 +5,11 @@
 this is a simple example of a docker based hubot/redis setup  Created about 9/19/2015.
 
 clone repo
+
+edit docker-compose.yml with your api key for slack, browser stack is their but their API didn't work for me.
+
 docker-compose up
+
 
 You'll need docker and docker-compose
 
