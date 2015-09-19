@@ -1,0 +1,38 @@
+{
+  "name": "rosie",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Tad Merchant <system.root@gmail.com>",
+  "description": "A half insane, half braindead robot ai trying to put us all out of a job",
+  "dependencies": {
+    "bang": "^1.0.4",
+    "hubot": "^2.16.0",
+    "hubot-bookmark": "0.0.4",
+    "hubot-browserstack": "^0.1.6",
+    "hubot-caniuse": "^1.0.3",
+    "hubot-cron": "^0.2.9",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-analytics": "0.0.6",
+    "hubot-google-images": "^0.2.1",
+    "hubot-google-translate": "^0.2.0",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "^1.0.0",
+    "hubot-impersonate": "^2.0.0",
+    "hubot-lunchplans": "^0.2.1",
+    "hubot-maps": "0.0.2",
+    "hubot-plusplus": "^1.1.5",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.16.2",
+    "hubot-shipit": "^0.2.0",
+    "hubot-slack": "^3.3.0",
+    "hubot-strawpoll": "^1.0.1",
+    "lodash": "^3.10",
+    "shellwords": "^0.1.0",
+    "strong-oracle": "^1.6"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

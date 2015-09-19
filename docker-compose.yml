@@ -1,0 +1,21 @@
+rosie:
+  image: collinestes/docker-node-oracle:2.3
+  links:
+    - redis:redis
+  volumes:
+    - ./rosie/:/rosie:rw
+    - ./oracle/network/:/opt/instantclient_12_1/network/
+  environment:
+    - REDIS_URL=redis://redis:6379/rosie
+    - HUBOT_LOG_LEVEL=debug
+    #- HUBOT_BROWSER_STACK_ACCESS_KEY=
+    #- HUBOT_BROWSER_STACK_USERNAME=
+    #- HUBOT_SLACK_TOKEN=
+  working_dir: /rosie
+  command: ./bin/hubot --adapter slack
+redis:
+  image: redis
+  ports:
+    - 6379:6379
+  volumes:
+    - ./data/:/data:rw
